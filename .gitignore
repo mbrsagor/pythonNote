@@ -1,0 +1,6 @@
+env
+
+# IDE
+.pylintrc
+tox.ini
+.vscode/*
