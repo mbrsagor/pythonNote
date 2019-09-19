@@ -4,3 +4,6 @@ env
 .pylintrc
 tox.ini
 .vscode/*
+venv
+.idea
+.xml

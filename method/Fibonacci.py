@@ -13,4 +13,4 @@ def fib(_start):
             print(result)
 
 
-fib(7)
+fib(10)
