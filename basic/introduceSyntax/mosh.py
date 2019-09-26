@@ -34,10 +34,3 @@ elif N:
 else:
     print("Event")
 """
-
-
-
-
-
-
-
