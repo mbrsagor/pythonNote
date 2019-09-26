@@ -5,3 +5,9 @@ print(languages)
 
 languages.update("Django")
 print(languages)
+
+framework = {"Django", "AngularJS", "Laravel"}
+
+languages.add("GO land")
+languages.update(framework)
+print(languages)

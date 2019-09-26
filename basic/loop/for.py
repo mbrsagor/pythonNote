@@ -19,3 +19,8 @@ for name in names:
     print(name)
 
 print('\n')
+
+_total = 0
+for i in range(1, 101):
+    _total += i
+print(_total)
