@@ -1,0 +1,1 @@
+class MyMethod(object):    def __init__(self):        self.name = "mbr-sagor"    @staticmethod    def full_name():        print("Hello I am Md.Bozlur Rosid Sagor")    @classmethod    def get_name(cls):        cls.name = "Sagor"        return cls.nameif __name__ == '__main__':    method = MyMethod()    MyMethod.full_name()    print(MyMethod.get_name())
