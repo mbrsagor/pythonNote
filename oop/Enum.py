@@ -1,0 +1,1 @@
+import enumclass Book(enum.Enum):    python = 1    javascript = 2    java = 3    dart = 4print(Book.python)# using loopfor book in Book:    print(book.name)print(Book(2))print(Book['dart'])print()
