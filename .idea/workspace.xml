@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4f320984-4763-4b54-a2f7-e6afc84197dd" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/basic/data-structures/new/LinkList.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basic/data-structures/new/Node.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/basic/data-structures/new/LinkList.py" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -17,6 +18,7 @@
     <SUITE FILE_PATH="coverage/pythonNode3_7$operators.coverage" NAME="operators Coverage Results" MODIFIED="1586372914568" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/DataTypes" />
     <SUITE FILE_PATH="coverage/pythonNode3_7$Enum.coverage" NAME="Enum Coverage Results" MODIFIED="1592939061169" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/oop" />
     <SUITE FILE_PATH="coverage/pythonNode3_7$Validation.coverage" NAME="Validation Coverage Results" MODIFIED="1592153184655" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/oop" />
+    <SUITE FILE_PATH="coverage/pythonNode3_7$Node__1_.coverage" NAME="Node (1) Coverage Results" MODIFIED="1593658089974" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/basic/data-structures/new" />
     <SUITE FILE_PATH="coverage/pythonNode3_7$Methods.coverage" NAME="Methods Coverage Results" MODIFIED="1586120190499" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/method" />
     <SUITE FILE_PATH="coverage/pythonNode3_7$Computer.coverage" NAME="Computer Coverage Results" MODIFIED="1586178007322" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/oop" />
     <SUITE FILE_PATH="coverage/pythonNode3_7$Innter.coverage" NAME="Innter Coverage Results" MODIFIED="1586109772639" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/method" />
@@ -25,24 +27,15 @@
     <SUITE FILE_PATH="coverage/pythonNode3_7$Solver.coverage" NAME="Solver Coverage Results" MODIFIED="1589530322801" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/oop" />
     <SUITE FILE_PATH="coverage/pythonNode3_7$index.coverage" NAME="index Coverage Results" MODIFIED="1586179703902" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PythonMySql" />
     <SUITE FILE_PATH="coverage/pythonNode3_7$pythonAllNode.coverage" NAME="pythonAllNode Coverage Results" MODIFIED="1585686697506" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
-    <SUITE FILE_PATH="coverage/pythonNode3_7$LinkList.coverage" NAME="LinkList Coverage Results" MODIFIED="1593189907287" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/basic/data-structures/new" />
+    <SUITE FILE_PATH="coverage/pythonNode3_7$LinkList.coverage" NAME="LinkList Coverage Results" MODIFIED="1593654633297" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/basic/data-structures/new" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="PrimeNumber.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/oop/PrimeNumber.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
+            <state relative-caret-position="342">
               <caret line="19" selection-start-line="19" selection-end-line="19" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Node.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/oop/Node.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="396">
-              <caret line="22" column="13" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -56,11 +49,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="LinkList.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/basic/data-structures/new/LinkList.py">
+      <file leaf-file-name="Node.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/basic/data-structures/new/Node.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="63" lean-forward="true" selection-start-line="63" selection-end-line="63" />
+            <state relative-caret-position="378">
+              <caret line="73" lean-forward="true" selection-start-line="73" selection-end-line="73" />
             </state>
           </provider>
         </entry>
@@ -112,6 +105,8 @@
         <option value="$PROJECT_DIR$/oop/Enum.py" />
         <option value="$PROJECT_DIR$/basic/data-structures/new/index.py" />
         <option value="$PROJECT_DIR$/basic/data-structures/new/LinkList.py" />
+        <option value="$PROJECT_DIR$/basic/data-structures/new/oop.py" />
+        <option value="$PROJECT_DIR$/basic/data-structures/new/Node.py" />
       </list>
     </option>
   </component>
@@ -135,6 +130,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -164,7 +160,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="ProjectViewState">
@@ -190,7 +185,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.LinkList">
+  <component name="RunManager" selected="Python.Node (1)">
     <configuration name="Enum" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="pythonNote" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -229,6 +224,25 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
+    <configuration name="Node (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="pythonNote" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/basic/data-structures/new" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/basic/data-structures/new/Node.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
     <configuration name="Node" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="pythonNote" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -243,25 +257,6 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/oop/Node.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
-    <configuration name="PrimeNumber" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="pythonNote" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/oop" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/oop/PrimeNumber.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -307,19 +302,19 @@
     </configuration>
     <list>
       <item itemvalue="Python.pythonAllNode" />
-      <item itemvalue="Python.PrimeNumber" />
       <item itemvalue="Python.Node" />
       <item itemvalue="Python.Validation" />
       <item itemvalue="Python.Enum" />
       <item itemvalue="Python.LinkList" />
+      <item itemvalue="Python.Node (1)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.Node (1)" />
         <item itemvalue="Python.LinkList" />
         <item itemvalue="Python.Enum" />
         <item itemvalue="Python.Validation" />
         <item itemvalue="Python.Node" />
-        <item itemvalue="Python.PrimeNumber" />
       </list>
     </recent_temporary>
   </component>
@@ -360,23 +355,23 @@
       <window_info anchor="bottom" id="Python Console" order="10" />
       <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3287858" />
       <window_info anchor="bottom" id="Terminal" order="11" weight="0.3287858" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18168813" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18383405" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="4" />
       <window_info anchor="right" id="SciView" order="3" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39972714" />
+      <window_info anchor="bottom" id="Anonymous Apex" order="13" weight="0.3287858" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="Log Viewer" order="13" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="SOQL Query" order="13" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Anonymous Apex" order="13" weight="0.3287858" />
+      <window_info anchor="bottom" id="Log Viewer" order="13" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -444,13 +439,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/oop/PrimeNumber.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="19" selection-start-line="19" selection-end-line="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/DataTypes/index.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="504">
@@ -702,13 +690,13 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/basic/index.txt" />
     <entry file="file://$PROJECT_DIR$/readme.md">
-      <provider editor-type-id="text-editor" />
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor />
           <second_editor />
         </state>
       </provider>
+      <provider editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
@@ -718,20 +706,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/oop/Solver.py" />
-    <entry file="file://$PROJECT_DIR$/oop/PrimeNumber.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="19" selection-start-line="19" selection-end-line="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/oop/Node.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="22" column="13" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/Library/Caches/PyCharm2018.1/python_stubs/977787947/builtins.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="18">
@@ -753,8 +727,36 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/basic/data-structures/new/Node.py">
+    <entry file="file://$PROJECT_DIR$/venv/lib/python3.6/codecs.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="354">
+          <caret line="331" selection-start-line="331" selection-end-line="331" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/basic/data-structures/new/oop.py">
       <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/oop/Node.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="22" column="13" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/oop/PrimeNumber.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/basic/data-structures/new/LinkList.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="12" column="24" lean-forward="true" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="24" />
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/oop/Validation.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -763,17 +765,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/venv/lib/python3.6/codecs.py">
+    <entry file="file://$PROJECT_DIR$/basic/data-structures/new/Node.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="354">
-          <caret line="331" selection-start-line="331" selection-end-line="331" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/basic/data-structures/new/LinkList.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="63" lean-forward="true" selection-start-line="63" selection-end-line="63" />
+        <state relative-caret-position="378">
+          <caret line="73" lean-forward="true" selection-start-line="73" selection-end-line="73" />
         </state>
       </provider>
     </entry>
