@@ -1,0 +1,1 @@
+month_name = 'July'days = 31start_date = 0print(f"Calendar of {month_name} Month")print("sun  mon  tue  wed thu  fri  sat")for i in range(1, 8):    pass
