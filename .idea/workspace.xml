@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4f320984-4763-4b54-a2f7-e6afc84197dd" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/basic/loop/calendar.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/pyttsx3&amp;PDF/voice.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -27,6 +28,7 @@
     <SUITE FILE_PATH="coverage/pythonNode3_7$PrimeNumber.coverage" NAME="PrimeNumber Coverage Results" MODIFIED="1589530819774" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/oop" />
     <SUITE FILE_PATH="coverage/pythonNode3_7$api.coverage" NAME="api Coverage Results" MODIFIED="1594150105151" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/modules/request" />
     <SUITE FILE_PATH="coverage/pythonNode3_7$Solver.coverage" NAME="Solver Coverage Results" MODIFIED="1589530322801" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/oop" />
+    <SUITE FILE_PATH="coverage/pythonNode3_7$voice.coverage" NAME="voice Coverage Results" MODIFIED="1594431647193" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/modules/pyttsx3&amp;PDF" />
     <SUITE FILE_PATH="coverage/pythonNode3_7$index.coverage" NAME="index Coverage Results" MODIFIED="1594146545260" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/modules/request" />
     <SUITE FILE_PATH="coverage/pythonNode3_7$calendar.coverage" NAME="calendar Coverage Results" MODIFIED="1594229652374" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/basic/loop" />
     <SUITE FILE_PATH="coverage/pythonNode3_7$pythonAllNode.coverage" NAME="pythonAllNode Coverage Results" MODIFIED="1585686697506" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
@@ -38,7 +40,7 @@
       <file leaf-file-name="helper.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/basic/data-structures/custom-data/helper.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
+            <state relative-caret-position="864">
               <caret line="48" selection-start-line="48" selection-end-line="48" />
             </state>
           </provider>
@@ -53,11 +55,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="calendar.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="calendar.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/basic/loop/calendar.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
-              <caret line="12" column="28" selection-start-line="12" selection-start-column="28" selection-end-line="12" selection-end-column="28" />
+            <state relative-caret-position="162">
+              <caret line="9" column="8" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="voice.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/modules/pyttsx3&amp;PDF/voice.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
             </state>
           </provider>
         </entry>
@@ -117,6 +128,7 @@
         <option value="$PROJECT_DIR$/modules/request/api.py" />
         <option value="$PROJECT_DIR$/basic/data-structures/dict/switch.py" />
         <option value="$PROJECT_DIR$/basic/loop/calendar.py" />
+        <option value="$PROJECT_DIR$/modules/pyttsx3&amp;PDF/voice.py" />
       </list>
     </option>
   </component>
@@ -140,6 +152,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -155,25 +168,18 @@
             <path>
               <item name="pythonNode3.7" type="b2602c69:ProjectViewProjectNode" />
               <item name="pythonNode3.7" type="462c0819:PsiDirectoryNode" />
-              <item name="basic" type="462c0819:PsiDirectoryNode" />
-              <item name="loop" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pythonNode3.7" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pythonNode3.7" type="462c0819:PsiDirectoryNode" />
               <item name="modules" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="pythonNode3.7" type="b2602c69:ProjectViewProjectNode" />
               <item name="pythonNode3.7" type="462c0819:PsiDirectoryNode" />
               <item name="modules" type="462c0819:PsiDirectoryNode" />
-              <item name="request" type="462c0819:PsiDirectoryNode" />
+              <item name="pyttsx3&amp;PDF" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="ProjectViewState">
@@ -199,7 +205,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.calendar">
+  <component name="RunManager" selected="Python.voice">
     <configuration name="api" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="pythonNote" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -233,25 +239,6 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/basic/loop/calendar.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
-    <configuration name="helper" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="pythonNote" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/basic/data-structures/custom-data" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/basic/data-structures/custom-data/helper.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -314,21 +301,40 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
+    <configuration name="voice" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="pythonNote" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/modules/pyttsx3&amp;PDF" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/modules/pyttsx3&amp;PDF/voice.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
     <list>
       <item itemvalue="Python.pythonAllNode" />
-      <item itemvalue="Python.helper" />
       <item itemvalue="Python.index" />
       <item itemvalue="Python.api" />
       <item itemvalue="Python.switch" />
       <item itemvalue="Python.calendar" />
+      <item itemvalue="Python.voice" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.voice" />
         <item itemvalue="Python.calendar" />
         <item itemvalue="Python.switch" />
         <item itemvalue="Python.api" />
         <item itemvalue="Python.index" />
-        <item itemvalue="Python.helper" />
       </list>
     </recent_temporary>
   </component>
@@ -360,32 +366,31 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="830" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.49795362" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Python Console" order="10" />
-      <window_info anchor="bottom" id="Terminal" order="11" weight="0.3287858" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20100144" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.49795362" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.3287858" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20386267" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="4" />
       <window_info anchor="right" id="SciView" order="3" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39972714" />
       <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39972714" />
+      <window_info anchor="bottom" id="Anonymous Apex" order="13" weight="0.3287858" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="Log Viewer" order="13" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="SOQL Query" order="13" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Anonymous Apex" order="13" weight="0.3287858" />
+      <window_info anchor="bottom" id="Log Viewer" order="13" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -458,13 +463,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/method/addMethod.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="8" selection-start-line="8" selection-end-line="8" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/method/Methods.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="234">
@@ -730,7 +728,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/basic/data-structures/custom-data/helper.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
+        <state relative-caret-position="864">
           <caret line="48" selection-start-line="48" selection-end-line="48" />
         </state>
       </provider>
@@ -772,8 +770,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/basic/loop/calendar.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="12" column="28" selection-start-line="12" selection-start-column="28" selection-end-line="12" selection-end-column="28" />
+        <state relative-caret-position="162">
+          <caret line="9" column="8" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/pyttsx3&amp;PDF/voice.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
         </state>
       </provider>
     </entry>
