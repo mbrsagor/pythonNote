@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4f320984-4763-4b54-a2f7-e6afc84197dd" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/modules/pyttsx3&amp;PDF/voice.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/firebase/index.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
     </list>
@@ -32,6 +32,7 @@
     <SUITE FILE_PATH="coverage/pythonNode3_7$index.coverage" NAME="index Coverage Results" MODIFIED="1594146545260" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/modules/request" />
     <SUITE FILE_PATH="coverage/pythonNode3_7$calendar.coverage" NAME="calendar Coverage Results" MODIFIED="1594229652374" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/basic/loop" />
     <SUITE FILE_PATH="coverage/pythonNode3_7$pythonAllNode.coverage" NAME="pythonAllNode Coverage Results" MODIFIED="1585686697506" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/pythonNode3_7$index__1_.coverage" NAME="index (1) Coverage Results" MODIFIED="1594514849132" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/modules/firebase" />
     <SUITE FILE_PATH="coverage/pythonNode3_7$LinkList.coverage" NAME="LinkList Coverage Results" MODIFIED="1593654633297" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/basic/data-structures/new" />
     <SUITE FILE_PATH="coverage/pythonNode3_7$Stack.coverage" NAME="Stack Coverage Results" MODIFIED="1593759186560" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/basic/data-structures/new" />
   </component>
@@ -46,15 +47,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/modules/request/index.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="144">
-              <caret line="8" column="28" selection-start-line="8" selection-start-column="28" selection-end-line="8" selection-end-column="28" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="calendar.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/basic/loop/calendar.py">
           <provider selected="true" editor-type-id="text-editor">
@@ -64,11 +56,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="voice.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="voice.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/modules/pyttsx3&amp;PDF/voice.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+            <state>
+              <caret column="14" selection-start-column="14" selection-end-column="14" />
             </state>
           </provider>
         </entry>
@@ -78,6 +70,15 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="1332">
               <caret line="74" column="17" selection-start-line="72" selection-start-column="4" selection-end-line="74" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/modules/firebase/index.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="72">
+              <caret line="4" column="38" selection-start-line="4" selection-start-column="38" selection-end-line="4" selection-end-column="38" />
             </state>
           </provider>
         </entry>
@@ -129,6 +130,7 @@
         <option value="$PROJECT_DIR$/basic/data-structures/dict/switch.py" />
         <option value="$PROJECT_DIR$/basic/loop/calendar.py" />
         <option value="$PROJECT_DIR$/modules/pyttsx3&amp;PDF/voice.py" />
+        <option value="$PROJECT_DIR$/modules/firebase/index.py" />
       </list>
     </option>
   </component>
@@ -152,7 +154,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -174,12 +175,13 @@
               <item name="pythonNode3.7" type="b2602c69:ProjectViewProjectNode" />
               <item name="pythonNode3.7" type="462c0819:PsiDirectoryNode" />
               <item name="modules" type="462c0819:PsiDirectoryNode" />
-              <item name="pyttsx3&amp;PDF" type="462c0819:PsiDirectoryNode" />
+              <item name="firebase" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="ProjectViewState">
@@ -205,7 +207,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.voice">
+  <component name="RunManager" selected="Python.index (1)">
     <configuration name="api" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="pythonNote" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -244,7 +246,7 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="index" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="index (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="pythonNote" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -252,12 +254,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/modules/request" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/modules/firebase" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/modules/request/index.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/modules/firebase/index.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -322,19 +324,19 @@
     </configuration>
     <list>
       <item itemvalue="Python.pythonAllNode" />
-      <item itemvalue="Python.index" />
       <item itemvalue="Python.api" />
       <item itemvalue="Python.switch" />
       <item itemvalue="Python.calendar" />
       <item itemvalue="Python.voice" />
+      <item itemvalue="Python.index (1)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.index (1)" />
         <item itemvalue="Python.voice" />
         <item itemvalue="Python.calendar" />
         <item itemvalue="Python.switch" />
         <item itemvalue="Python.api" />
-        <item itemvalue="Python.index" />
       </list>
     </recent_temporary>
   </component>
@@ -366,31 +368,32 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="830" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.49795362" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Python Console" order="10" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.49795362" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.3287858" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20386267" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.3287858" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2067239" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="4" />
       <window_info anchor="right" id="SciView" order="3" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39972714" />
-      <window_info anchor="bottom" id="Anonymous Apex" order="13" weight="0.3287858" />
+      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Log Viewer" order="13" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="SOQL Query" order="13" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Log Viewer" order="13" />
+      <window_info anchor="bottom" id="Anonymous Apex" order="13" weight="0.3287858" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -463,13 +466,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/method/Methods.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/oop/Auth.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
@@ -777,8 +773,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/modules/pyttsx3&amp;PDF/voice.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+        <state>
+          <caret column="14" selection-start-column="14" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/firebase/index.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="4" column="38" selection-start-line="4" selection-start-column="38" selection-end-line="4" selection-end-column="38" />
         </state>
       </provider>
     </entry>
