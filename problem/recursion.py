@@ -1,1 +1,1 @@
-def recursion(num):    print(num)    if num > 0:        recursion(num - 1)recursion(5)
+def recursion(num):    print(num)    if num > 0:        recursion(num - 1)recursion(5)print('\n')def recursion2(num2):    print(num2)    if num2 < 5:        recursion2(num2 + 1)recursion2(0)
