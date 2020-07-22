@@ -1,1 +1,1 @@
-def factorial(num):    if num == 0:        return num    elif num == 1:        return num    else:        return num * factorial(num - 1)user_input = int(input("Inter factorial number: "))print(factorial(user_input))
+def factorial(num):    if num == 0 or num == 1 or num < 0:        return num    else:        return num * factorial(num - 1)user_input = int(input("Inter factorial number: "))print(factorial(user_input))
