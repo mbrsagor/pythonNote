@@ -1,0 +1,1 @@
+a = {    "key": 1,    "key2": {        "key2": 1,        "kye3": {            "key4": {                "key5": 4            }        }    }}def my_dict(a):    pass
