@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4f320984-4763-4b54-a2f7-e6afc84197dd" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/basic/data-structures/dict/problem.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/basic/data-structures/dict/problem2.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bongo_code_test/problem_2.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -65,20 +63,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="problem.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/basic/data-structures/dict/problem.py">
+      <file leaf-file-name="problem_2.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/bongo_code_test/problem_2.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="162">
-              <caret line="9" column="37" lean-forward="true" selection-start-line="9" selection-start-column="37" selection-end-line="9" selection-end-column="37" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="problem2.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/basic/data-structures/dict/problem2.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="367">
-              <caret line="54" column="14" selection-start-line="54" selection-start-column="14" selection-end-line="54" selection-end-column="14" />
+            <state relative-caret-position="990">
+              <caret line="55" lean-forward="true" selection-start-line="55" selection-end-line="55" />
             </state>
           </provider>
         </entry>
@@ -191,6 +180,7 @@
         <option value="$PROJECT_DIR$/problem/nasted_dict.py" />
         <option value="$PROJECT_DIR$/basic/data-structures/dict/problem.py" />
         <option value="$PROJECT_DIR$/basic/data-structures/dict/problem2.py" />
+        <option value="$PROJECT_DIR$/bongo_code_test/problem_2.py" />
       </list>
     </option>
   </component>
@@ -238,6 +228,11 @@
               <item name="basic" type="462c0819:PsiDirectoryNode" />
               <item name="data-structures" type="462c0819:PsiDirectoryNode" />
               <item name="dict" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pythonNode3.7" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pythonNode3.7" type="462c0819:PsiDirectoryNode" />
+              <item name="bongo_code_test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="pythonNode3.7" type="b2602c69:ProjectViewProjectNode" />
@@ -459,9 +454,9 @@
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Python Console" order="10" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.35470667" />
-      <window_info anchor="bottom" id="Terminal" order="11" weight="0.3287858" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25608012" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.35470667" />
+      <window_info anchor="bottom" id="Terminal" order="11" visible="true" weight="0.3287858" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25608012" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="4" />
       <window_info anchor="right" id="SciView" order="3" />
@@ -555,13 +550,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/oop/Auth.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/oop/Auth.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="18">
@@ -845,10 +833,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/modules/request/weather.py">
+    <entry file="file://$PROJECT_DIR$/basic/data-structures/dict/problem2.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="8" selection-start-line="8" selection-end-line="8" />
+        <state relative-caret-position="53">
+          <caret line="39" column="25" lean-forward="true" selection-start-line="39" selection-start-column="25" selection-end-line="39" selection-end-column="25" />
         </state>
       </provider>
     </entry>
@@ -859,10 +847,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/basic/data-structures/dict/problem2.py">
+    <entry file="file://$PROJECT_DIR$/modules/request/weather.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="367">
-          <caret line="54" column="14" selection-start-line="54" selection-start-column="14" selection-end-line="54" selection-end-column="14" />
+        <state relative-caret-position="144">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bongo_code_test/problem_2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="990">
+          <caret line="55" lean-forward="true" selection-start-line="55" selection-end-line="55" />
         </state>
       </provider>
     </entry>
