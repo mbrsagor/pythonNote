@@ -35,7 +35,7 @@ Add the following line to your `~/.profile` file
 `export PATH=/usr/local/bin:/usr/local/sbin:$PATH`
 Usually your Python installation directory looks like this, add it to your PATH
 
-`PATH="/Library/Frameworks/Python.framework/Versions/3.6/bin:${PATH}"
+`PATH="/Library/Frameworks/Python.framework/Versions/3.6/bin:${PATH}"`
 
 ##### On Linux/Ubuntu
 ```
