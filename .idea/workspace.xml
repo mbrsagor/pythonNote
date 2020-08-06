@@ -42,6 +42,7 @@
     <SUITE FILE_PATH="coverage/pythonNode3_7$problem2.coverage" NAME="problem2 Coverage Results" MODIFIED="1596654632950" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/basic/data-structures/dict" />
     <SUITE FILE_PATH="coverage/pythonNode3_7$weather.coverage" NAME="weather Coverage Results" MODIFIED="1596450928237" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/modules/request" />
     <SUITE FILE_PATH="coverage/pythonNode3_7$index__1_.coverage" NAME="index (1) Coverage Results" MODIFIED="1594514849132" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/modules/firebase" />
+    <SUITE FILE_PATH="coverage/pythonNode3_7$problem_3.coverage" NAME="problem_3 Coverage Results" MODIFIED="1596712102928" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/bongo_code_test" />
     <SUITE FILE_PATH="coverage/pythonNode3_7$Stack.coverage" NAME="Stack Coverage Results" MODIFIED="1593759186560" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/basic/data-structures/new" />
   </component>
   <component name="FileEditorManager">
@@ -263,26 +264,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.problem2">
-    <configuration name="factorial" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="pythonNote" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/method" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/method/factorial.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
+  <component name="RunManager" selected="Python.problem_3">
     <configuration name="index" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="pythonNote" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -340,6 +322,25 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
+    <configuration name="problem_3" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="pythonNote" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/bongo_code_test" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/bongo_code_test/problem_3.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
     <configuration name="pythonAllNode" type="PythonConfigurationType" factoryName="Python">
       <module name="pythonNote" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -380,19 +381,19 @@
     </configuration>
     <list>
       <item itemvalue="Python.pythonAllNode" />
-      <item itemvalue="Python.factorial" />
       <item itemvalue="Python.index" />
       <item itemvalue="Python.weather" />
       <item itemvalue="Python.problem" />
       <item itemvalue="Python.problem2" />
+      <item itemvalue="Python.problem_3" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.problem_3" />
         <item itemvalue="Python.problem2" />
         <item itemvalue="Python.problem" />
         <item itemvalue="Python.weather" />
         <item itemvalue="Python.index" />
-        <item itemvalue="Python.factorial" />
       </list>
     </recent_temporary>
   </component>
