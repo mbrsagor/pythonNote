@@ -6,7 +6,8 @@ def bubbleSort(arr):
             if arr[j] > arr[j + 1]:
                 arr[j], arr[j + 1] = arr[j + 1], arr[j]
 
-arr = [10, 1, 12, 40, 3, 2, 5]
+
+arr = ['c', 'f', 'a', 'b', 'd']
 bubbleSort(arr)
 
 for i in range(len(arr)):
