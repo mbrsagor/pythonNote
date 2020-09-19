@@ -1,0 +1,1 @@
+import jsoninfo = {'name': 'Md. Bozlur Rosid Sagor', 'age': '26', 'address': 'Dhaka, Uttara'}data = json.dumps(info)print(data)
