@@ -5,5 +5,5 @@ info = {
     "phn_num": "01773474709"  # String format keep phn number
 }
 
-for key, value in info.items():
-    print(key, ":", value)
+for key, val in info.items():
+    print(f"{key} : {val}")
