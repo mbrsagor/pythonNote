@@ -123,4 +123,4 @@ pyobjc-framework-WebKit==6.2.2
 PyPDF2==1.26.0
 pyttsx3==2.90
 requests==2.24.0
-urllib3==1.25.9
+urllib3==1.26.5
