@@ -11,11 +11,13 @@ class Book(enum.Enum):
 print(Book.python)
 # using loop
 for book in Book:
-    print(book.name)
+    _val = book.name + ' : ' + str(book.value)
+    print(_val)
 
 print(Book(2))
 print(Book['dart'])
 
+print('\n')
 
 """ Start from new logic """
 class Status(enum.Enum):
@@ -33,7 +35,7 @@ class Task(object):
     
     def startTask(self):
         if self.status == Status.START:
-            print "Task has been started"
+            print("Task has been started")
 
 task = Task(1, "Demo task", "Done")
 task.startTask()
