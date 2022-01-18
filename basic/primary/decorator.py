@@ -17,16 +17,14 @@ ordinary()
 # V2
 def uppercase_decorator(function):
     def wrapper():
-        func = function()
-        make_uppercase = func.upper()
-        return make_uppercase
-
+        content = function().upper()
+        return content
     return wrapper
 
 
 @uppercase_decorator
-def say_hi():
-    return "Hello there"
+def say_hello():
+    return "hello there, this is a bozlur rosid sagor"
 
 
-print(say_hi())
+print(say_hello())

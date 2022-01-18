@@ -91,3 +91,20 @@ print(select(1))
 print(select(2))
 
 ```
+
+###### Decorator is a one of the most common popular data structure in python. Below the simple example:
+```python
+def uppercase_decorator(function):
+    def wrapper():
+        content = function().upper()
+        return content
+    return wrapper
+
+
+@uppercase_decorator
+def say_hello():
+    return "hello there, this is a bozlur rosid sagor"
+
+
+print(say_hello())
+```
