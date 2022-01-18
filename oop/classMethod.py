@@ -1,4 +1,4 @@
-class Example(object):
+class About(object):
 
     @classmethod
     def get_full_name(cls, first, last):
@@ -10,5 +10,5 @@ class Example(object):
 
 
 if __name__ == '__main__':
-    Example.get_full_name('mbr', 'sagor')
-    Example.get_name('sagor')
+    About.get_full_name('mbr', 'sagor')
+    About.get_name('sagor')
