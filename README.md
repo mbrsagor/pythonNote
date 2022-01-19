@@ -1,7 +1,6 @@
 # pythonNode3.7
-Study in python latest code and node series
 
-> In this series I'm sharing python basic to advance label nothing else.
+> In this series I'm sharing python basic to advance and data-structure code which I'm teaching my friends and brothers.
 
 #### Features
 
@@ -107,4 +106,22 @@ def say_hello():
 
 
 print(say_hello())
+```
+
+###### Static method and class Method example:
+```python
+class User(object):
+
+    @classmethod
+    def get_full_name(cls, first_name, last_name):
+        print(f"Full Name is: {first_name} {last_name}")
+
+    @staticmethod
+    def get_name(name):
+        print(f"Hello {name}")
+
+
+if __name__ == '__main__':
+    User.get_full_name('mbr', 'sagor')
+    User.get_name('sagor')
 ```
