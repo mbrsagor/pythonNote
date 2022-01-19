@@ -17,3 +17,9 @@ print(result)
 items = []
 _item = [items.append(n) for n in numbers]
 print(items)
+
+squares = list(map(lambda x: x**2, range(1, 10)))
+print(squares)
+
+tu = [(x, y) for x in [1,2,3] for y in [3,1,4] if x != y]
+print(tu)
