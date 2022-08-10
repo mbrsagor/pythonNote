@@ -1,20 +1,20 @@
 class Node(object):
 
-	def __init__(self, data_val= None):
-		self.data_val = data_val
-		self.next_val = None
+    def __init__(self, data_val=None):
+        self.data_val = data_val
+        self.next_val = None
 
 
 class SLinkList(object):
 
-	def __init__(self):
-		self.head_val = None
+    def __init__(self):
+        self.head_val = None
 
-	def display(self):
-		show_val = self.head_val
-		while show_val is not None:
-			print(show_val.data_val)
-			show_val = show_val.next_val
+    def display(self):
+        show_val = self.head_val
+        while show_val is not None:
+            print(show_val.data_val)
+            show_val = show_val.next_val
 
 
 sll = SLinkList()

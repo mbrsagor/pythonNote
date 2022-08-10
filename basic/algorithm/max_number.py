@@ -1,6 +1,6 @@
 def findAverageNumber(num, num2):
     result = (num + num2) / 2
-    return result;
+    return result
 
 
 _average_num = findAverageNumber(5, 9)

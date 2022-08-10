@@ -1,5 +1,0 @@
-def binarySearch():
-
-    pass
-
-binarySearch()

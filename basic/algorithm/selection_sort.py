@@ -1,5 +1,5 @@
-def selection_sort(L):
-    n = len(L)
+def selection_sort(l):
+    n = len(l)
 
     for i in range(0, n - 1):
         index_min = i

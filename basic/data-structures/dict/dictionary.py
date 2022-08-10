@@ -32,4 +32,4 @@ for alien in aliens:
         alien['color'] = 'Yellow'
 
 for alien in aliens[0:3]:
-      print(alien)
+    print(alien)
