@@ -16,6 +16,5 @@ make_full_name = lambda first_name, last_name: f"Full Name: {first_name} {last_n
 full_name = make_full_name("Mbr", "Sagor")
 print(full_name)
 
-
 average_number = lambda number, number2: number + number2 / 2
 print(average_number(6, 9))

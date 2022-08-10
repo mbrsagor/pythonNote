@@ -20,11 +20,14 @@ print(Book['dart'])
 print('\n')
 
 """ Start from new logic """
+
+
 class Status(enum.Enum):
     START = 0
     INPROGRESS = 1
     PENDING = 2
     FINISHED = 3
+
 
 class Task(object):
 
@@ -32,10 +35,11 @@ class Task(object):
         self.task_id = task_id
         self.task_name = task_name
         self.status = status
-    
+
     def startTask(self):
         if self.status == Status.START:
             print("Task has been started")
+
 
 task = Task(1, "Demo task", "Done")
 task.startTask()

@@ -20,6 +20,6 @@ class Client(Super):
         self.amount = amount
 
 
-if __name__ == '__main__' :
+if __name__ == '__main__':
     instance = Client('mbr', 'sagor', 'mbrsagor@gmail.com', 's12345', 'uttara sector-11', 1773474709, 35000)
     print(instance.get_all())

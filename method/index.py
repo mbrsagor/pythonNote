@@ -9,6 +9,8 @@ main_function()
 
 
 def something(name, profession): return f"Hello this is {name} I'm a {profession}"
+
+
 print(something("Sagor", "full-stack software engineer."))
 
 
@@ -62,10 +64,10 @@ recursive(5)
 
 ## Kwargs
 def languages(*args):
-	""" 
-		Here args use for 
-	"""
-	print(args)
+    """
+        Here args use for
+    """
+    print(args)
 
 
 languages("python")
@@ -76,7 +78,7 @@ print('\n')
 
 
 def userInfo(**kwargs):
-	print(kwargs)
+    print(kwargs)
 
 
 userInfo(username='sagor', email='mbrsagor@gmail.com', password='sagor12345')

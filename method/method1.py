@@ -15,4 +15,3 @@ def save_data(**kwargs):
 
 _data = save_data(id=0, username="mbr-sagor")
 print(_data)
-

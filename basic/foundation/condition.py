@@ -44,7 +44,7 @@ if temperature >= 20:
 else:
     print("it's a cool day")
 
-name = "mbr-sagor dsfsdfsdfs dfsfsdfsfd dfsdfsdf"
+name = "Bozlur Rosid Sagor"
 if len(name) <= 5:
     print("Name must be at least 5 characters")
 elif len(name) >= 10:
