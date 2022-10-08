@@ -1,4 +1,4 @@
-# pythonNode3.7
+# pythonNode
 
 > In this series I'm sharing python basic to advance and data-structure code which I'm teaching my friends and brothers.
 
