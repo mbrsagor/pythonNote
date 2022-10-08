@@ -9,7 +9,7 @@
 - Function.
 - Class (OOP).
 - Python library and modules.
-- Basic problem solving.
+- Basic problem-solving.
 
 
 ###### How to install python Linux (ubuntu) OS
