@@ -10,8 +10,8 @@ def time_conversion(sec):
 
 time_conversion(1667663255)
 
-
 print()
+
 
 def convert(seconds):
     seconds = seconds % (24 * 3600)
