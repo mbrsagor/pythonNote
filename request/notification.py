@@ -4,18 +4,12 @@ import requests
 
 url = "https://onesignal.com/api/v1/notifications/"
 
-API_KEY = "NGYyMDFiYzYtZDJjNi00OWNiLWI4ODEtNDk1YWE0ZGM2MjZl"
-APP_ID = "3428af54-41f6-454f-ad10-112ab455eeb1"
-authorization = "NDIwNTQxOGMtZDdlNC00ZmQ0LTk5YzItZGM5ZGExNDU2Y2Ex"
-
-payload = {
-    "device_type": 0,
-    "language": "en",
-}
+APP_ID = "5d85cda9-28c8-4655-ad11-69f5414dfe8a"
+authorization = "NDVjOTQxNTQtOTYyOS00NTlkLTk0NGMtZGY5MGViZjNmZTEx"
 
 body = {
     "app_id": APP_ID,
-    "app_name": "Hercules",
+    "app_name": "HerculesDev",
     "included_segments": ["Subscribed Users"],
     # "include_player_ids": ["8b2df38d-62cc-48a9-bad0-407bdc80b820"],
     "android_sound": "notification",
