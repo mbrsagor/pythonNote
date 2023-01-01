@@ -1,7 +1,7 @@
 import requests
 
 url = "https://fcm.googleapis.com/fcm/send"
-authorization = "your auth token"
+authorization = "Your key"
 
 headers = {
     "Content-Type": "application/json",
@@ -12,7 +12,8 @@ headers = {
 device_token = "e3b6mA0wTw-xzXUtG5yMg1:APA91bGJ6lunearRRBL573-PGDl1pDeMkzzuE6-A7czjVxRnpYKPZx9hdXvInqf3UKIoorqDC3n0mZV57oEzcpcgI4Zu0Fsq0pHnfKwUY5wgVtvhcG6xArN9RftM5vE-x-ezpE7XuA8w"
 
 def send_notification(send_to, title, message):
-    to = send_to
+    # to = send_to
+    to = '/topics/all'
     data = {
         'title': title,
         'message': message
