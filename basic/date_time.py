@@ -25,3 +25,23 @@ def convert(seconds):
 
 c = convert(1667663255)
 print(c)
+
+
+sec = int(input("Enter time in Seconds: "))
+
+time = []
+days, sec = divmod(sec, 86400)  # sec will get seconds in partial day
+if days:
+    time.append(f"{days} day" + "s" * (days > 1))
+
+hours, sec = divmod(sec, 3600)  # sec will get seconds in partial hour
+if hours:
+    time.append(f"{hours} hour" + "s" * (hours > 1))
+
+minutes, sec = divmod(sec, 60)  # sec will get seconds in partial minute
+if minutes:
+    time.append(f"{minutes} minute" + "s" * (minutes > 1))
+
+if sec:
+    time.append(f"{sec} second" + "s" * (sec > 1))
+print(time)
