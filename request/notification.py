@@ -4,8 +4,8 @@ import requests
 
 url = "https://onesignal.com/api/v1/notifications/"
 
-APP_ID = "5d85cda9-28c8-4655-ad11-69f5414dfe8a"
-authorization = "NDVjOTQxNTQtOTYyOS00NTlkLTk0NGMtZGY5MGViZjNmZTEx"
+APP_ID = "APP_ID"
+authorization = "AUTHORIZATION_TOKEN"
 
 body = {
     "app_id": APP_ID,
