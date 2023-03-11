@@ -1,30 +1,26 @@
-def make_pretty(func):
-    def inner():
-        print("I got decorated")
+def say_hello(func):
+    def welcome():
+        print("Hello everyone, how are you?")
         func()
+        print("Welcome, to your website")
 
-    return inner
-
-
-@make_pretty
-def ordinary():
-    print("I am ordinary")
+    return welcome()
 
 
-ordinary()
+@say_hello
+def say_something():
+    print("I'm calling to say something decorator method")
 
 
-# V2
-def uppercase_decorator(function):
-    def wrapper():
-        content = function().upper()
-        return content
-    return wrapper
+def contains_duplicate(nums):
+    seen = set()
+    for num in nums:
+        if num in seen:
+            return True
+        seen.add(num)
+    return False
 
 
-@uppercase_decorator
-def say_hello():
-    return "hello there, this is a bozlur rosid sagor"
-
-
-print(say_hello())
+items = [1, 2, 3, 10, 3, 12]
+result = contains_duplicate(items)
+print(result)
