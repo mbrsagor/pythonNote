@@ -11,7 +11,7 @@ class LinkList(object):
 
     def add_item_end(self, new_item):
         new_node = Node(new_item)
-        if self.head is  None:
+        if self.head is None:
             self.head = new_node
             return
         last_item = self.head
@@ -31,6 +31,8 @@ linked_list.head.next = second
 second.next = third
 # add node last
 linked_list.add_item_end("10")
+linked_list.add_item_end("12")
+linked_list.add_item_end("15")
 
 while linked_list.head is not None:
     print(linked_list.head.item, end=' ')
