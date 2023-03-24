@@ -22,9 +22,18 @@ hours = (millis / (1000 * 60 * 60)) % 24
 print("%d:%d:%d" % (hours, minutes, seconds))
 
 
-
 # Date time convert second to hours, minute, and second
 def time_convert(seconds):
     min, sec = divmod(seconds, 60)
     hour, min = divmod(min, 60)
     return '%d:%02d:%02d' % (hour, min, sec)
+
+
+def time_to_sec(t):
+    h, m, s = map(int, t.split(':'))
+    return h * 3600 + m * 60 + s
+
+
+t = '10:40'
+result = time_to_sec(t)  # 38420
+print(f"Result: {result}")
