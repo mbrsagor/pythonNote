@@ -1,1 +1,0 @@
-import pyttsx3# https://pypi.org/project/PyPDF2/talk = pyttsx3.init()  # Here initialization/create objecttalk.say("I love you. Do you love me...?")talk.runAndWait()print(talk)talk.say("Yes I'm...")talk.runAndWait()print(talk)

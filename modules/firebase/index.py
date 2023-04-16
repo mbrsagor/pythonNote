@@ -1,1 +1,0 @@
-from firebase import firebasebase_url = firebase.FirebaseApplication('http://127.0.0.1:8000', None)fetch_data = base_url.get('/api/doctor', None)print(fetch_data)
