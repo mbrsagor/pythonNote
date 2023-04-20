@@ -1,3 +1,6 @@
+from datetime import datetime, timedelta
+
+
 def time_conversion(sec):
     sec_value = sec % (24 * 3600)
     hours = sec_value // 3600
@@ -26,7 +29,6 @@ def convert(seconds):
 c = convert(1667663255)
 print(c)
 
-
 sec = int(input("Enter time in Seconds: "))
 
 time = []
@@ -45,3 +47,6 @@ if minutes:
 if sec:
     time.append(f"{sec} second" + "s" * (sec > 1))
 print(time)
+
+last_hour_date_time = datetime.now() - timedelta(hours=1)
+print(last_hour_date_time.strftime('%Y-%m-%d %H:%M:%S'))
