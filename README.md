@@ -16,15 +16,6 @@
 
 By default Linux and Mac OS install python 2.7. If you install python3 or more version you may follow this commands.
 
-##### On Mac OS
-- Launch Terminal
-- Go to Launchpad – Other – Terminal
-- Install HomeBrew
-```
-(brew --prefix)/opt/python/libexec/bin
-brew install python3
-```
-
 ##### Optional, PATH environment
 Set up PATH environment variable, if you used HomeBrew to install Python3, then HomeBrew already added PATH. Do not 
 change PATH environment if you can launch python3 from terminal.
