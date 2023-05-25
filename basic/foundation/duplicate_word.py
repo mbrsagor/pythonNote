@@ -10,4 +10,15 @@ print(' '.join(result))
 
 names = ["John", "Doe", "John", "Smith"]
 unique_names = set(names)
-print(unique_names)
+print(list(unique_names))
+
+# Using loop in list
+languages = ["python", "java", "python", "C", "R", "java", "C"]
+
+lan = []
+
+for language in languages:
+    if language not in lan:
+        lan.append(language)
+
+print(lan)
