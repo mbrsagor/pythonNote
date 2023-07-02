@@ -14,6 +14,7 @@ print(list(unique_names))
 
 # Using loop in list
 languages = ["python", "java", "python", "C", "R", "java", "C"]
+# languages = ['Nure', 'Sanchia', 'nure', 'Saimon', 'Sanchia']
 
 lan = []
 
