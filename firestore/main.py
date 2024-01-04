@@ -1,4 +1,3 @@
-import requests
 import firebase_admin
 from firebase_admin import credentials, firestore
 
@@ -8,15 +7,28 @@ cred = credentials.Certificate("pythonfirestore.json")
 app = firebase_admin.initialize_app(cred)
 db = firestore.client()
 
-doc_ref = db.collection("users").document("alovelace")
-doc_ref.set({"first": "Ada", "last": "Lovelace", "born": 1815})
 
-users_ref = db.collection("users")
-docs = users_ref.stream()
+def get_users():
+    my_users = []
+    users = db.collection('users')
+    for user in users.stream():
+        # print(user.to_dict())
+        my_users.append(user.to_dict())
+    resp = {
+        'status': 'success',
+        'message': 'Successfully data returned',
+        'data': my_users
+    }
+    print(resp)
 
-for doc in docs:
-    print(f"{doc.id} => {doc.to_dict()}")
+
+def create_user(first, last, born):
+    users_ref = db.collection("users")
+    print("Create Successfully.")
+    return users_ref.add({"first": first, "last": last, "born": born})
 
 
-def send_message(first, last, born):
-    pass
+def update_user(first, last, born, user_id):
+    users_ref = db.collection("users").document(user_id)
+    print("Updated Successfully.")
+    return users_ref.update({"first": first, "last": last, "born": born})
