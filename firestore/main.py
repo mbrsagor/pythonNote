@@ -15,11 +15,11 @@ def get_users():
         # print(user.to_dict())
         my_users.append(user.to_dict())
     resp = {
-        'status': 'success',
+        'status': True,
         'message': 'Successfully data returned',
         'data': my_users
     }
-    print(resp)
+    return resp
 
 
 def create_user(first, last, born):
