@@ -12,7 +12,6 @@ def get_users():
     my_users = []
     users = db.collection('users')
     for user in users.stream():
-        # print(user.to_dict())
         my_users.append(user.to_dict())
     resp = {
         'status': True,
