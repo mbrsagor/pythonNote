@@ -9,6 +9,7 @@ db = firestore.client()
 
 
 def get_users():
+    # list of users
     my_users = []
     users = db.collection('users')
     for user in users.stream():
@@ -22,12 +23,16 @@ def get_users():
 
 
 def create_user(first, last, born):
+    # Create new user
     users_ref = db.collection("users")
     print("Create Successfully.")
     return users_ref.add({"first": first, "last": last, "born": born})
 
 
 def update_user(first, last, born, user_id):
+    """
+    User update function
+    params: user_id: user id
+    """
     users_ref = db.collection("users").document(user_id)
-    print("Updated Successfully.")
     return users_ref.update({"first": first, "last": last, "born": born})
