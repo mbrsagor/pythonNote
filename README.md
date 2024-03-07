@@ -49,7 +49,8 @@ print(result)
 ```
 
 ```python
-import asyncio
+
+from extra import asyncio
 
 
 async def say_hello():

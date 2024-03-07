@@ -1,7 +1,7 @@
 import socket
 
 # Create a socket object
-server_socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+server_socket = extra.socket(socket.AF_INET, socket.SOCK_STREAM)
 
 # Bind the socket to a specific address and port
 server_address = ('localhost', 8888)
