@@ -128,3 +128,12 @@ if __name__ == '__main__':
     User.get_full_name('mbr', 'sagor')
     User.get_name('sagor')
 ```
+
+> About Me
+```python
+person = {
+    'type': 'engineer',
+    'skills': ['Python', 'JavaScript','Django', 'FastAPI', 'Docker', 'AWS'],
+    'keepLearning': True
+}
+```
