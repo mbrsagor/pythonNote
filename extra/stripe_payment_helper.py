@@ -1,5 +1,6 @@
 import requests
-from django.conf import settings
+# Stripe API key
+stripe_api_key = "YOUR_STRIPE_SECRET_KEY"
 
 # URLS
 customer_url = 'https://api.stripe.com/v1/customers'
@@ -7,8 +8,6 @@ ephemeral_key_url = 'https://api.stripe.com/v1/ephemeral_keys'
 payment_intents_url = 'https://api.stripe.com/v1/payment_intents'
 payment_info_url = 'https://api.stripe.com/v1/payment_intents'
 
-# Stripe API key
-stripe_api_key = settings.STRIPE_SECRET_KEY
 
 # This header will use for global.
 headers = {
