@@ -1,4 +1,6 @@
 import requests
+import stripe
+
 # Stripe API key
 stripe_api_key = "YOUR_STRIPE_SECRET_KEY"
 
@@ -7,7 +9,6 @@ customer_url = 'https://api.stripe.com/v1/customers'
 ephemeral_key_url = 'https://api.stripe.com/v1/ephemeral_keys'
 payment_intents_url = 'https://api.stripe.com/v1/payment_intents'
 payment_info_url = 'https://api.stripe.com/v1/payment_intents'
-
 
 # This header will use for global.
 headers = {
@@ -81,3 +82,11 @@ def get_payment_information(payment_intent_id):
     url = f"{payment_info_url}/{payment_intent_id}"
     response = requests.get(url, headers=headers)
     return response.text
+
+
+customer = stripe.Customer.create(
+    idempotency_key='KG5LxwFBepaKHyUSD',
+    name='Bozlur Rosid Sagor', email='mbrsagor@gmail.com',
+    phone='123456789', address='Dhaka'
+)
+print(customer)
