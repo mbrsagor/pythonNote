@@ -26,8 +26,8 @@ def send_receipt_email_to_customer(payment_intent_id, customer_email):
     """
 
     # Email configuration
-    sender_email = 'sagor.hello@gmail.com'
-    sender_password = 'kenccqpwqqjlmbnr'
+    sender_email = 'your@gmail.com'
+    sender_password = 'password'
     smtp_server = 'smtp.gmail.com'
     smtp_port = 587
 
