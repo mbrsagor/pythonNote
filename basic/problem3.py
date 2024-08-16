@@ -22,5 +22,5 @@ class Solution(object):
         return grid
 
 
-fin = Solution()
-print(fin.uniquePathsIII([[1, 0, 0, 0], [0, 0, 0, 0], [0, 0, 2, -1]]))
+solution = Solution()
+print(solution.uniquePathsIII([[1, 0, 0, 0], [0, 0, 0, 0], [0, 0, 2, -1]]))
