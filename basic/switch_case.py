@@ -1,4 +1,4 @@
-lang = input("What's the programming language you want to learn? ")
+lang = input("What's the programming language you want to learn?: ")
 
 match lang:
     case "JavaScript":
