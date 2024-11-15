@@ -1,0 +1,7 @@
+import math
+
+sqrt_value = math.sqrt(16)  # Square root: 4.0
+log_value = math.log(10)    # Natural log: 2.302585
+cos_value = math.cos(math.pi / 3)  # Cosine: 0.5
+
+
