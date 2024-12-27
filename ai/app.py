@@ -13,7 +13,7 @@ def simple_ai(prompt):
     return response.choices[0].text.strip()
 
 # Example usage
-user_input = input("Ask me anything: ")
-ai_response = simple_ai(user_input)
-print("AI says:", ai_response)
-
+if __name__ == "__main__":
+    user_input = input("Ask me anything: ")
+    ai_response = simple_ai(user_input)
+    print("AI says:", ai_response)
