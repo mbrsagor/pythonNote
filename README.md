@@ -1,11 +1,11 @@
 # pythonNode
 
-> In this series I'm sharing python basic to advance and data-structure code which I'm teaching my friends and brothers.
+> In this series, I'm sharing python basic to advance and data-structure code, which I'm teaching my friends and brothers.
 
 #### Features
 
 - Python installation.
-- How to write python terminal or IDE.
+- How to write Python terminal or IDE.
 - Function.
 - Class (OOP).
 - Python library and modules.
@@ -16,14 +16,14 @@
 
 By default Linux and Mac OS install python 2.7. If you install python3 or more version you may follow this commands.
 
-##### Optional, PATH environment
-Set up PATH environment variable, if you used HomeBrew to install Python3, then HomeBrew already added PATH. Do not 
-change PATH environment if you can launch python3 from terminal.
+##### Optional PATH environment
+Set up PATH environment variable, If you used HomeBrew to install Python3, then HomeBrew already added PATH. Do not 
+Change PATH environment if you can launch python3 from the terminal.
 
 Add the following line to your `~/.profile` file
 
 `export PATH=/usr/local/bin:/usr/local/sbin:$PATH`
-Usually your Python installation directory looks like this, add it to your PATH
+Usually, your Python installation directory looks like this; add it to your PATH
 
 `PATH="/Library/Frameworks/Python.framework/Versions/3.6/bin:${PATH}"`
 
@@ -94,7 +94,7 @@ print(select(2))
 
 ```
 
-###### Decorator is a one of the most common popular data structure in python. Below the simple example:
+###### Decorators are one of the most common popular data structures in Python. Below is a simple example:
 ```python
 def uppercase_decorator(function):
     def wrapper():
@@ -133,7 +133,7 @@ if __name__ == '__main__':
 ```python
 person = {
     'type': 'engineer',
-    'skills': ['Python', 'JavaScript','Django', 'FastAPI', 'Docker', 'AWS'],
+    'skills': ['Python', 'JavaScript', 'Django', 'FastAPI', 'React.JS', 'Docker', 'AWS'],
     'keepLearning': True
 }
 ```
