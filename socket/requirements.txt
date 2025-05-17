@@ -4,7 +4,7 @@ async-timeout==4.0.3
 attrs==23.2.0
 bidict==0.22.1
 frozenlist==1.4.1
-h11==0.14.0
+h11==0.16.0
 idna==3.7
 multidict==6.0.4
 python-engineio==3.13.2
