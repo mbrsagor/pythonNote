@@ -13,4 +13,4 @@ psycopg2-binary==2.9.3
 requests==2.32.4
 soupsieve==2.4.1
 typesense==0.20.0
-urllib3==1.26.18
+urllib3==2.5.0
