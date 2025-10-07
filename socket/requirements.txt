@@ -8,7 +8,7 @@ h11==0.16.0
 idna==3.7
 multidict==6.0.4
 python-engineio==3.13.2
-python-socketio==4.6.0
+python-socketio==5.14.0
 simple-websocket==1.0.0
 six==1.16.0
 wsproto==1.2.0
