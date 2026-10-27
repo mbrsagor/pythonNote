@@ -1,5 +1,5 @@
 beautifulsoup4==4.12.2
-certifi==2024.7.4
+certifi==2026.10.19
 charset-normalizer==2.1.1
 et-xmlfile==1.1.0
 geographiclib==2.0
